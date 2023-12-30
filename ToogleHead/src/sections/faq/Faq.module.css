@@ -1,0 +1,7 @@
+.faqHeading{
+    text-align: center;
+    color: var(--mainColor);
+    font-weight: 900;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+}

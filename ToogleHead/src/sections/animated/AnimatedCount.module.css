@@ -1,0 +1,52 @@
+.mainContainer {
+  background-color: var(--sectionColor);
+  display: grid;
+  width: 100%;
+  margin: auto;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6rem;
+  padding: 2rem 5rem;
+}
+.loremIpsumFirst {
+  color: var(--mainColor);
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.secondLorem {
+  color: var(--mainColor);
+  font-weight: 600;
+}
+.loremParagraph {
+  color: var(--mainColor);
+  opacity: 0.5;
+  font-size: 0.8rem;
+}
+.tickerHeading {
+  margin: 0.2rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 990px) {
+  .mainContainer {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .mainContainer {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

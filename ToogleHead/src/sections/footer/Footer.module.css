@@ -1,0 +1,60 @@
+.mainFooter {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  color: var(--normalColor);
+}
+.mainContainer {
+  background-color: var(--mainColor);
+  padding: 2rem 0;
+}
+.heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.contactInfo {
+  opacity: 0.8;
+}
+.socialMediaIcon {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.Followheading {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 3.8rem;
+  margin-bottom: 0.5rem;
+}
+.paraTag {
+  display: flex;
+  gap: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+.copyRight {
+  text-align: center;
+  padding: 10px;
+  color: var(--normalColor);
+  background-color: #052648;
+}
+@media screen and (max-width: 1024px) {
+  .mainFooter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+  }
+}
+@media screen and (max-width: 640px) {
+    .mainFooter {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 1rem;
+    }
+    .Followheading{
+        margin-left: 0;
+    }
+  }
+  

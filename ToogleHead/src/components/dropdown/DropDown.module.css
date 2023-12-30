@@ -1,0 +1,26 @@
+.ulList {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30%;
+  background-color: var(--mainColor);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  transition: 0.5s;
+  gap: 1rem;
+  z-index: 111;
+}
+.liList {
+    display: flex;
+    gap: 0;
+    align-items: center;
+    font-size: 1rem;
+  }
+  .dropDownIcon {
+    font-size: 1.4rem;
+    margin: 0;
+  }

@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  background-color: var(--mainColor);
+  color: var(--normalColor);
+  padding: 1rem;
+  border-radius: 10px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.arrowButton {
+  background-color: var(--normalColor);
+  color: var(--mainColor);
+  border-radius: 100%;
+}
+.cardHeading{
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+.mainContainer{
+    width: 90%;
+    margin: 3rem auto;
+}
+.cardPara{
+    margin-bottom: 0.3rem;
+}

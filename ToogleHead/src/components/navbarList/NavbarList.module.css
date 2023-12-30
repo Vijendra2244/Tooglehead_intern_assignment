@@ -1,0 +1,63 @@
+.ulList {
+  display: flex;
+  margin-left: 30rem;
+}
+.liList {
+  display: flex;
+  gap: 0;
+  align-items: center;
+  font-size: 1rem;
+  margin-right: 1.5rem;
+}
+.dropDownIcon {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+@media screen and (max-width: 1321px) {
+  .ulList {
+    margin-left: 20rem;
+  }
+  .liList {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1205px) {
+  .ulList {
+    margin-left: 15rem;
+  }
+  .liList {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 990px) {
+  .ulList {
+    margin-left: 8rem;
+  }
+  .liList {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 855px) {
+  .ulList {
+    margin-left: 5rem;
+  }
+  .liList {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ulList {
+    margin-left: 3rem;
+  }
+
+  .liList {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ulList {
+    display: none;
+  }
+}

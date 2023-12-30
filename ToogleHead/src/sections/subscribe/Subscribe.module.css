@@ -1,0 +1,118 @@
+.mainContainer {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin: 1rem auto;
+  font-family: "FSAlbert", sans-serif;
+}
+.leftContainer {
+  width: 80%;
+  padding: 4.5rem;
+}
+.heading {
+  font-size: 2.5rem;
+  color: var(--mainColor);
+  font-weight: 600;
+}
+.paraSubscribe {
+  opacity: 0.9;
+  font-size: 0.9rem;
+}
+.emailInput {
+  border-radius: 8px;
+  border: 1px solid rgb(129, 126, 126);
+  padding: 5px 10px;
+  outline: none;
+  padding-right: 30px;
+}
+.inputBtn {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+  align-items: center;
+}
+.subscribeButton {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: var(--mainColor);
+  color: var(--normalColor);
+  padding: 7px 10px;
+}
+.imageContainer {
+  width: 65%;
+}
+@media screen and (max-width: 1220px) {
+  .imageContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+}
+
+
+@media screen and (max-width: 1090px) {
+  .mainContainer {
+    width: 60%;
+    margin: auto;
+  }
+  .leftContainer{
+    margin-left: 3rem;
+  }
+  
+  .Subscribe {
+    font-size: 0.8rem;
+  }
+  .inputBtn {
+    display: flex;
+    flex-direction: column;
+  }
+  .imageContainer{
+    margin-left: 3rem;
+  }
+}
+@media screen and (max-width: 890px) {
+  .mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+  }
+  .leftContainer {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+  }
+  .leftContainer {
+    padding: 1rem;
+  }
+
+  .imageContainer {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+  }
+  .leftContainer {
+    padding: 1rem;
+  }
+
+  .imageContainer {
+    width: 100%;
+  }
+}
