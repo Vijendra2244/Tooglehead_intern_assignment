@@ -6,13 +6,16 @@
   color: var(--normalColor);
 }
 .mainContainer {
-  background-color: var(--mainColor);
+  background-image: url(../../images/footerBackImg.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 40%;
   padding: 2rem 0;
 }
 .heading {
   font-weight: bold;
   font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 .contactInfo {
   opacity: 0.8;
@@ -27,7 +30,7 @@
   font-weight: bold;
   font-size: 1.5rem;
   margin-left: 3.8rem;
-  margin-bottom: 0.5rem;
+  margin-bottom:1rem;
 }
 .paraTag {
   display: flex;

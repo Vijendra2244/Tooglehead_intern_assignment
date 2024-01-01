@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./TopCarousel.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import firstImage from "../../images/TopCarouselOne.jpg";
-import secondImage from "../../images/TopCarouselTwo.jpeg";
-import thirdImage from "../../images/TopCarouselThree.jpeg";
-import fourthImage from "../../images/TopCarouselFour.jpeg";
+import headImage from "../../images/toggleHeadImg.png";
+import headImage1 from "../../images/toggleHeadImg2 (1).png";
+import headImage2 from "../../images/toggleHeadImg2 (2).png";
+import headImage3 from "../../images/toggleHeadImg2 (3).png";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -46,7 +46,7 @@ export default function TopCarousel() {
               </button>
             </div>
             <div className={styles.slide}>
-              <img className={styles.images} src={firstImage} alt="" />
+              <img className={styles.images} src={headImage} alt="" />
             </div>
           </div>
         </SwiperSlide>
@@ -66,7 +66,7 @@ export default function TopCarousel() {
               </button>
             </div>
             <div className={styles.slide}>
-              <img className={styles.images} src={secondImage} alt="" />
+              <img className={styles.images} src={headImage1} alt="" />
             </div>
           </div>
         </SwiperSlide>
@@ -86,7 +86,7 @@ export default function TopCarousel() {
               </button>
             </div>
             <div className={styles.slide}>
-              <img className={styles.images} src={thirdImage} alt="" />
+              <img className={styles.images} src={headImage2} alt="" />
             </div>
           </div>
         </SwiperSlide>
@@ -106,7 +106,7 @@ export default function TopCarousel() {
               </button>
             </div>
             <div className={styles.slide}>
-              <img className={styles.images} src={fourthImage} alt="" />
+              <img className={styles.images} src={headImage3} alt="" />
             </div>
           </div>
         </SwiperSlide>

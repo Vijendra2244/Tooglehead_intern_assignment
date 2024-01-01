@@ -1,11 +1,14 @@
 .card {
   display: flex;
-  width: 70%;
+  width: 85%;
   flex-direction: column;
-  background-color: var(--mainColor);
   color: var(--normalColor);
   padding: 1rem;
   border-radius: 10px;
+  background-image: url(../../images/cardImg.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .button {
   display: flex;

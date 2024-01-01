@@ -17,8 +17,15 @@ export default function CardCarousel() {
       slidesPerView: 2,
       spaceBetween: 20,
     },
-
+    640:{
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
     480: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    300: {
       slidesPerView: 1,
       spaceBetween: 10,
     },
